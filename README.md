@@ -2,13 +2,15 @@
 A simple setup to get a simple FEED up and running in no time.
 The setup, structure, and design has been considered to be as bare as possible. Having an "easy" way to post, and a nice pipeline is the objective here, where your own design and enhancements can go on top of.
 
+Disclaimer: This README will probably have a cute little bug! Please do let me know, if you decide to try this out, if there's anything unclear or does not work as described. <3
+
 ## Prerequisites
 - A Github account
 - A Netlify account
 
 
 ## How it works
-This feed relies on Netlify CMS (and your github repo) for data input and storage, and Gatsby to build the static pages.
+This feed relies on Netlify CMS (and your github repo) for data input and storage, and Gatsby to build the static pages. Check out my [personal feed's github repo](https://github.com/ezekielaquino/Feed-Ezekiel-Aquino) (and history) to get to know how Netlify CMS makes commits into the folders specified in config.yml
 
 Default Stack:
 - Gatsby
@@ -50,7 +52,7 @@ Publish your repository to Github!
 Login into your Netlify account, and create new deployment. Connect to your Github account and select the repo you just created for your feed. Press OK! It should start an initial deployment.
 
 ### 4️⃣ Step 4
-No we need to setup your netlify account to handle authentication, and so your Gatsby deployment knows where to draw data from. This assumes that your project/repo already has its own "dashboard" page (https://app.netlify.com/sites/[site-name]). 
+Now we need to setup your netlify account to handle authentication, and so your Gatsby deployment knows where to draw data from. This assumes that your project/repo already has its own "dashboard" page (https://app.netlify.com/sites/[site-name]). 
 
 #### 4a – Enable Identity
 You must enable `Netlify Identity`. You can do this by going the the Identity tab in the project's dashboard.
