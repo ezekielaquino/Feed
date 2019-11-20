@@ -78,6 +78,7 @@ const SiteHeader = styled.header`
   left: 0;
   mix-blend-mode: difference;
   color: #fff;
+  z-index: 999;
 `;
 
 const SiteHeaderSocials = styled.ul`
