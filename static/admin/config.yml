@@ -8,9 +8,9 @@ collections:
     label: "Feed"
     folder: "_entries/feed"
     create: true
-    slug: "{{day}-{{month}}-{{year}}-{{hour}}{{minute}}{{second}}"
+    slug: "{{day}}-{{month}}-{{year}}-{{hour}}{{minute}}{{second}}"
     fields:
       - {label: "Title", name: "title", widget: "string", default: "Entry"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image", optional: true}
-      - {label: "Body", name: "body", widget: "markdown", optional: true}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
