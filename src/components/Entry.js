@@ -57,6 +57,8 @@ const EntryHeader = styled.header`
 `;
 
 const EntryBody = styled.main`
+  width: 100%;
+  max-width: 600px;
   margin: 5px 0;
 `;
 
